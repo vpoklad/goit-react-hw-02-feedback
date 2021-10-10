@@ -31,7 +31,7 @@ class App extends Component {
     const total = this.countTotalFeedback();
     const posPercentage = this.countPositiveFeedbackPercentage();
     return (
-      <div>
+      <div className="app">
         <Section title="Please leave feadback">
           <FeedbackOptions
             options={Object.keys(this.state)}
